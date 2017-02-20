@@ -14,7 +14,7 @@ oracle 기계에게 질의를 할 기회가 주어질 때, **섬에서 보물이
 
 #### 그레이더 함수 : `countTreasure()`
 
-```
+```c++
 int countTreasure (int r1, int c1, int r2, int c2);
 ```
 
@@ -32,7 +32,7 @@ int countTreasure (int r1, int c1, int r2, int c2);
 
 #### 그레이더 함수 : `Report()`
 
-```
+```c++
 void Report (int r, int c);
 ```
 
@@ -51,7 +51,7 @@ void Report (int r, int c);
 
 #### 구현해야 하는 함수 : `findTreasure()`
 
-```
+```c++
 void findTreasure (int N);
 ```
 
