@@ -8,7 +8,6 @@
 
 만약 곤돌라 1번 만이 고장난 상황이라면, (4, 5, 6, 2, 3) 의 곤돌라 수열을 만들 수 있다. 만약 이후 4번 곤돌라가 고장난다면, 7번 곤돌라가 그 자리에 있게 되고, (6, 2, 3, 7, 5) 가 가능한 곤돌라 수열이 된다. 만약 7번 곤돌라가 이후에 고장이 난다면, 8번이 그 자리를 차지할 것이고 (3, 8, 5, 6, 2) 가 가능한 곤돌라 수열들 중 하나가 된다.
 
-<div class="row"> <div class="col-sm-5 col-md-5 col-lg-5">
  <div class="table-responsive">
  <table class="table table-bordered table-condensed">
   <thead>
@@ -25,8 +24,6 @@
   </tbody>
  </table>
  </div>
-</div> </div>
-
 
 **교체 수열**이라는 것은 고장난 곤돌라들의 번호를 고장난 순서에 따라 쓴 것이다. 직전의 예에서 교체 수열은 (1, 4, 7) 이다. 교체 수열 $r$이 곤돌라 수열 $g$를 **만든다**고 말을 할 수 있는데, 그것은 초기 상황에서 시작해서 $r$에 해당하는 방법으로 곤돌라들이 고장난 직후에, $g$가 가능한 곤돌라 수열들 중 하나인 경우를 의미한다.
 
@@ -321,11 +318,10 @@
 
 단 하나의 파일을 제출해야 한다. 이름은 `gondola.c` 또는 `gondola.cpp` 이다. 이 파일에는 위에서 말한 세가지 함수가 다 존재해야 한다. (부분 문제들 중 일부만 풀려고 하는 경우도 마찬가지이다.) 다음의 함수 선언을 이용해야 한다. C/C++ 구현에서는 `gondola.h` 를 `#include`해야 한다.
 
-```
+``` c++
 int valid(int n, int inputSeq[]);
 int replacement(int n, int gondolaSeq[], int replacementSeq[]);
 int countReplacement(int n, int inputSeq[]);
-
 ```
 
 #### Sample grader
