@@ -318,7 +318,7 @@
 
 단 하나의 파일을 제출해야 한다. 이름은 `gondola.c` 또는 `gondola.cpp` 이다. 이 파일에는 위에서 말한 세가지 함수가 다 존재해야 한다. (부분 문제들 중 일부만 풀려고 하는 경우도 마찬가지이다.) 다음의 함수 선언을 이용해야 한다. C/C++ 구현에서는 `gondola.h` 를 `#include`해야 한다.
 
-``` c++
+```c++
 int valid(int n, int inputSeq[]);
 int replacement(int n, int gondolaSeq[], int replacementSeq[]);
 int countReplacement(int n, int inputSeq[]);
