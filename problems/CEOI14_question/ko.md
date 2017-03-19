@@ -49,8 +49,6 @@
 
 여러분의 점수는 지학이가 상수에게 외친 $h$들 중 가장 큰 값에 따라서 결정됩니다.
 
-<div class="row">
-<div class="col-sm-4 col-md-4 col-lg-4">
 <div class="table-responsive">
 <table class="table table-condensed">
  <thead> <tr><th class="col-sm-4 col-md-4 col-lg-4">$h$의 최댓값</th><th>점수</th></tr></thead>
@@ -67,6 +65,6 @@
   <tr><td>$\le 12$</td><td>100</td></tr>
  </tbody>
 </table>
-</div></div></div>
+</div>
 
 또한, 여러분의 프로그램은 모든 테스트 케이스에 대해 정확하게 답해야 합니다. 그렇지 않는다면 0점을 받습니다.
