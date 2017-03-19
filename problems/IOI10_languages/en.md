@@ -47,7 +47,6 @@ from 56 language-specific editions of Wikipedia.
 <table border="1">
 <tr>
 	<td style="text-align: left;">
-<small>
 <ol start="0" style="float:left;">
 <li>Yshokkie word meestal in Kanada , die noorde van die VSA en in Europa gespeel. Dit is bekend as 'n b
 <li>المنتج الحدي Marginal Producer ، وهو المنتج الذي يجعل المنظم لا يكسب ربحا ولا يخسر ويحصل على دخل يكف
@@ -106,7 +105,6 @@ from 56 language-specific editions of Wikipedia.
 <li>ISO 3166-2:GU ni akoole ninu ISO 3166-2 , apa opagun ISO 3166 ti International Organization for Stan
 <li>下卡姆斯克 （ 俄文 ： Нижнека́мск ； 韃靼語 ： Түбән Кама/Tübän Kama ）是 俄羅斯 韃靼斯坦共和國 東北部的一個城市，位於 卡馬河 南岸。 2002年 人口22
 </ol>
-</small>
 </td>
 </tr>
 </table>
@@ -142,7 +140,7 @@ where α is the accuracy of your submission.
 
 <h3>Implementation Details</h3>
 <ul>
-</li><li>To be implemented by contestant: <tt>lang.c</tt> or <tt>lang.cpp</tt> or <tt>lang.pas</tt>
+<li>To be implemented by contestant: <tt>lang.c</tt> or <tt>lang.cpp</tt> or <tt>lang.pas</tt>
 </li><li>Contestant interface: <tt>lang.h</tt> or <tt>lang.pas</tt>
 </li><li>Grader interface: <tt>grader.h</tt> or <tt>graderlib.pas</tt>
 </li><li>Sample grader: <tt>grader.c</tt> or <tt>grader.cpp</tt> or <tt>grader.pas</tt> <i>and</i> <tt>graderlib.pas</tt>
