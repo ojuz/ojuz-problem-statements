@@ -68,13 +68,11 @@ with N between 1 and 500&thinsp;000&thinsp;000.
 
 <h3>Implementation Details</h3>
 <ul>
-<li>Use the <a href="http://www.ioi2010.org/environment/runc.shtml">RunC programming and test environment</a>
-<li>Implementation folder: <tt>/home/ioi2010-contestant/hottercolder/</tt> (prototype: <a href="http://ioi2010.org/Tasks/Day1/hottercolder.zip">hottercolder.zip</a>)
 <li>To be implemented by contestant: <tt>hottercolder.c</tt> or <tt>hottercolder.cpp</tt> or <tt>hottercolder.pas</tt>
 <li>Contestant interface: <tt>hottercolder.h</tt> or <tt>hottercolder.pas</tt>
 <li>Grader interface: <tt>grader.h</tt> or <tt>graderlib.pas</tt>
 <li>Sample grader: <tt>grader.c</tt> or <tt>grader.cpp</tt> or <tt>grader.pas</tt> <i>and</i> <tt>graderlib.pas</tt>
-<li>Sample grader input:  <tt>grader.in.1</tt> <tt>grader.in.2</tt>. <br><i>Note: The input file contains several lines, each containing N and Jill's number.</I>
+<li>Sample grader input:  <tt>grader.in.1</tt> <tt>grader.in.2</tt>. <br><i>Note: The input file contains several lines, each containing N and Jill's number.</i>
 <li>Expected output for sample grader input: the grader will create files <tt>grader.out.1</tt> <tt>grader.out.2</tt> etc.  
 <ul>
 <li>If the implementation correctly implements Subtask 1, one line of output will contain <tt>OK 1</tt>
@@ -82,8 +80,4 @@ with N between 1 and 500&thinsp;000&thinsp;000.
 <li>If the implementation correctly implements Subtask 3, one line of output will contain <tt>OK 3</tt>
 <li>If the implementation correctly implements Subtask 4, one line of output will contain <tt>OK 4 alpha &alpha;</tt>
 </ul>
-<li>Compile and run (command line): <tt>runc grader.c</tt> or <tt>runc grader.cpp</tt> or <tt>runc grader.pas</tt>
-<li>Compile and run (gedit plugin):  <i>Control-R</i>, while editing any implementation file.
-<li>Submit (command line):  <tt>submit grader.c</tt> or <tt>submit grader.cpp</tt> or <tt>submit grader.pas</tt>
-<li>Submit (gedit plugin):  <i>Control-J</i>, while editing any implementation or grader file.
 </ul>
