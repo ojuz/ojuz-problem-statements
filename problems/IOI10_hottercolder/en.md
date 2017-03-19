@@ -26,8 +26,8 @@ As example,
 assume N=5, and Jill has chosen the number 2.
 When procedure <b>HC</b> makes the following sequence of calls to <b>Guess</b>,
 the results in the second column will be returned.
-<blockquote>
-<table border="1" cellpadding="2">
+
+<table class="table table-bordered">
 <tr><th>Call<th>Returned value<th>Explanation
 <tr><td><b>Guess(5)</b><td>0<td>Same (first call)
 <tr><td><b>Guess(3)</b><td>1<td>Hotter
@@ -35,7 +35,7 @@ the results in the second column will be returned.
 <tr><td><b>Guess(1)</b><td>1<td>Hotter
 <tr><td><b>Guess(3)</b><td>0<td>Same
 </table>
-</blockquote>
+
 At this point Jack knows the answer, and <b>HC</b> should return 2.
 It has taken Jack 5 guesses to determine Jill's number.  You can do better.
 
