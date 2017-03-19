@@ -1,0 +1,1 @@
+The grader is different from the original contest, so there is no statement.
