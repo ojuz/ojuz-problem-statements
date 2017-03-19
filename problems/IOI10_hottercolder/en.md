@@ -69,7 +69,7 @@ with N between 1 and 500&thinsp;000&thinsp;000.
 <h3>Implementation Details</h3>
 <ul>
 <li>Use the <a href="http://www.ioi2010.org/environment/runc.shtml">RunC programming and test environment</a>
-<li>Implementation folder: <tt>/home/ioi2010-contestant/hottercolder/</tt> (prototype: <a href="hottercolder.zip">hottercolder.zip</a>)
+<li>Implementation folder: <tt>/home/ioi2010-contestant/hottercolder/</tt> (prototype: <a href="http://ioi2010.org/Tasks/Day1/hottercolder.zip">hottercolder.zip</a>)
 <li>To be implemented by contestant: <tt>hottercolder.c</tt> or <tt>hottercolder.cpp</tt> or <tt>hottercolder.pas</tt>
 <li>Contestant interface: <tt>hottercolder.h</tt> or <tt>hottercolder.pas</tt>
 <li>Grader interface: <tt>grader.h</tt> or <tt>graderlib.pas</tt>
