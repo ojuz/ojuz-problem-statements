@@ -78,15 +78,15 @@ The data for this example are in <tt>grader.in.1</tt>.
 </p><p>
 The entries in the following table are all <b>d</b>-values
 that <b>decode</b> must deliver by calling <b>hops(h,c,d)</b>:
-</p><blockquote>
-<table border="1" cellpadding="2">
+</p>
+<table class="table table-bordered table-condensed">
 <tbody><tr><th colspan="2" rowspan="2">d</th><th colspan="5">City c
 </th></tr><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4
 </th></tr><tr><th rowspan="3">Hub h</th><th>0</th><td>0</td><td>1</td><td>1</td><td>1</td><td>1
 </td></tr><tr><th>1</th><td>1</td><td>0</td><td>1</td><td>1</td><td>1
 </td></tr><tr><th>2</th><td>1</td><td>1</td><td>0</td><td>2</td><td>2
 </td></tr></tbody></table>
-</blockquote>
+
 
 <h3>Subtask 1 [25 points]</h3>
 <b>encode</b> must make no more than 16&#8201;000&#8201;000 calls to <b>encode_bit(b)</b>.
