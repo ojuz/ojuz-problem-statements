@@ -79,7 +79,7 @@ The data for this example are in <tt>grader.in.1</tt>.
 The entries in the following table are all <b>d</b>-values
 that <b>decode</b> must deliver by calling <b>hops(h,c,d)</b>:
 </p>
-<table class="table table-bordered table-condensed">
+<table class="table table-bordered">
 <tbody><tr><th colspan="2" rowspan="2">d</th><th colspan="5">City c
 </th></tr><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4
 </th></tr><tr><th rowspan="3">Hub h</th><th>0</th><td>0</td><td>1</td><td>1</td><td>1</td><td>1
