@@ -1,4 +1,3 @@
-<h1>Day 2 Task 4: Saveit</h1>
 The Xedef Courier Company provides air package
 delivery among several cities.  Some of these
 cities are Xedef <i>hubs</i> where special
@@ -67,8 +66,6 @@ while preventing them from being shared.  In Pascal, you may declare
 persistent variables in the <tt>implementation</tt> part of
 your solution files.</i>
 
-<br clear="all">
-<img src="IOI%202010%20Tasks_%20Saveit_files/saveit-example.jpg" align="right">
 </p><h3>Example</h3>
 <p>
 As an example,
