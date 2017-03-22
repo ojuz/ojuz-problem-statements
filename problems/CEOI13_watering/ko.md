@@ -2,8 +2,7 @@
 
 승현이가 농사를 지으면서 겪는 어려움은 새들의 출몰과 심한 가뭄입니다. 새들이 작물을 먹는 것을 방지하기 위해, 승현이는 몇 개의 구역에 허수아비를 설치해 놓았습니다. 허수아비는 (존재한다면) **한 개의 격자**를 차지하며 **각 $5 \times 5$ 크기 격자에 많아야 하나의 허수아비만** 존재합니다.
 
-<div style="text-align: center; margin-bottom: 10px;">
-<table style="width: 100%;"><tr>
+<table style="width: 100%; margin-bottom: 10px"><tr>
 	<td style="width: 33%;"><img src="https://s3.ap-northeast-2.amazonaws.com/oj.uz/old/CEOI13_watering/fig1-1.png" style=""/></td>
     <td style="width: 33%;"><pre style="margin-left: 5px; margin-right: 5px;">.....|.....
 .....|.....
@@ -28,7 +27,7 @@ yxbbb|zdaaa
 yxccc|zdbbb
 yxddd|zdccc
 </pre></td>
-</tr></table><p class="small-text">[그림 1] 왼쪽에서부터: 승현이가 소유한 땅의 이미지 형태, 승현이가 소유한 땅의 텍스트 형태, 이 토지에다 스프링클러를 놓을 수 있는 방법 중 하나</p></div>
+</tr></table><p class="small-text">[그림 1] 왼쪽에서부터: 승현이가 소유한 땅의 이미지 형태, 승현이가 소유한 땅의 텍스트 형태, 이 토지에다 스프링클러를 놓을 수 있는 방법 중 하나</p>
 
 안타깝게도 승현이의 토지에만 몇 달 동안 지속될 것으로 보이는 가뭄이 들었고, 승현이는 각 격자에 스프링클러를 둬서 작물에 물을 주기로 했습니다. 각 스프링클러는 **정확히 3개의 노즐**을 가지고 있으며 모든 노즐에서 물을 뿌릴 수 있습니다. 이 중 하나는 주요 노즐이고, 나머지 두 개는 몸통 노즐입니다. 몸통 노즐들은 항상 **주요 노즐과 접해 있는 격자들 중 두 개**를 차지합니다. 따라서 스프링클러의 모양은 아래 6개 중 하나일 것입니다.
 
