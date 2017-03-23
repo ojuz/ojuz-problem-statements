@@ -15,14 +15,14 @@ cows are allocated to work on floors in an optimal fashion.  Output this number
 rounded to the nearest integer; it is guaranteed that the solution will be more
 than 0.1 from the boundary between two integers.
 
-<div class='prob-in-spec'><h4>INPUT FORMAT (file tallbarn.in):</h4>
+<div class='prob-in-spec'><h4>INPUT FORMAT (standard input):</h4>
 The first line of input contains $N$ and $K$.
 
 The next $N$ lines contain $a_1 \ldots a_N$, each a positive integer of size at
 most $10^{12}$.
 </div>
 
-<div class='prob-out-spec'><h4>OUTPUT FORMAT (file tallbarn.out):</h4>
+<div class='prob-out-spec'><h4>OUTPUT FORMAT (standard output):</h4>
 Please output the minimum time required to build the barn, rounded to the
 nearest integer.
 </div>
