@@ -34,7 +34,6 @@
 
 * C : `gcc -O2 -std=c11 -o grader grader.c secret.c -lm`
 * C++ : `g++ -O2 -std=c++11 -o grader grader.cpp secret.cpp`
-* (참고) 현재 C11을 지원하지 않습니다. 따라서 채점 시에는 `std=c++11` 또는 `std=c11` 옵션이 주어지지 않습니다.
 
 만약 컴파일에 성공했다면, 실행 가능한 파일 `grader`가 생성됩니다.
 
