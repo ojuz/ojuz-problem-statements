@@ -11,7 +11,7 @@
   - 만약 `b = a`라면 이 함수는 `0`을 반환해야 합니다.
   - 만약 `b > a`라면 이 함수는 `1`을 반환해야 합니다.
   - 이 함수는 아래의 그레이더 함수를 호출할 수 있습니다.
-    - **`bit_get(address)`**: 고대 컴퓨터의 `address`번째 비트에 저장된 값을 돌려줍니다: 즉 만약 `remember(a)`에서 `bit_get(address)` 함수가 호출되었다면 `1`이 반환되고, 그렇지 않다면 `0`이 반환됩니다.
+    - **`bit_get(address)`**: 고대 컴퓨터의 `address`번째 비트에 저장된 값을 돌려줍니다: 즉 만약 `remember(a)`에서 `bit_set(address)` 함수가 호출되었다면 `1`이 반환되고, 그렇지 않다면 `0`이 반환됩니다.
 
 ### 해야 할 일
 
@@ -28,12 +28,12 @@ for a = 0..4095:
 let maxA= the maximum number of bit_set() calls executed for any a
 for (a,b) ∈ {0..4095}×{0..4095} in random order (i.e. all valid pairs (a,b) are considered, in some random order)
 	define bit_get(address): return AllMemory[a][address]
-	answer =compare(b)
+	answer = compare(b)
 	if answer for comparing a and b is incorrect : your score = 0; exit
 let maxB = the maximum number of bit_get() calls executed for any (a,b) pair
-T=maxA + maxB
-If (T>20): your score = 0; exit
-else your score = 1 + 9 * (21? T); exit
+T = maxA + maxB
+if (T>20): your score = 0; exit
+else: your score = 1 + 9 * (21 - T); exit
 </pre>
 
 ### 구현 시 유의사항
