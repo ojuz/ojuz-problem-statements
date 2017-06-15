@@ -45,9 +45,10 @@
 
 `N=4`, `L=10` 이고, 초기 코끼리의 위치가 다음과 같은 경우를 고려해보자.
 
-<table class="table table-bordered">
+<div class="table-responsive">
+<table class="table table-bordered" style="max-width: 300px;">
  <tr>
-  <td rowspan="6" class="code-font"  style="padding-left: 5px; padding-right: 5px;">
+  <td rowspan="6" class="code-font" style="padding-left: 5px; padding-right: 5px;">
     X = 
   </td>
   <td class="code-font"  style="padding-left: 5px; padding-right: 5px;">10</td>
@@ -62,9 +63,11 @@
   <td class="code-font"  style="padding-left: 5px; padding-right: 5px;">20</td>
  </tr>
 </table>
+</div>
 
 먼저, 함수 `init`은 위의 파라미터로 호출될 것이다. 그 후, 함수 `update` 는 각 동작마다 한번씩 호출될 것이다. 다음에 함수 호출의 예와 정확한 리턴 값들이 있다:
 
+<div class="table-responsive">
 <table class="table" style="width: 450px;">
  <tr>
   <th style="width: 100px;">동작</th>
@@ -97,6 +100,7 @@
   <td>3</td>
  </tr>
 </table>
+</div>
 
 ### 서브 태스크 (Subtasks)
 
