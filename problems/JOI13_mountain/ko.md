@@ -51,12 +51,6 @@ void Pinpoint (int RP, int CP);
 
 작성한 프로그램을 시험해 보기 위한 예제 채점 프로그램은 [여기](https://s3.ap-northeast-2.amazonaws.com/oj.uz/old/JOI13_mountain/grader.zip)를 클릭하시면 내려받을 수 있습니다. 이 파일에는 제출해야 할 파일인 `mountain.c(pp)` 역시 포함되어 있습니다.
 
-<center>
-<img src="https://s3.ap-northeast-2.amazonaws.com/oj.uz/old/JOI13_mountain/download.png">
-</center>
-
-예제 채점 프로그램은 위 사진과 같이 문제 제목 오른쪽에 있는, 아랫방향 화살표를 클릭하시면 쉽게 내려받을 수 있습니다. (모든 문제에 적용되어 있습니다!)
-
 예제 채점 프로그램은 1개의 파일로 구성되어 있습니다. 그 파일은 `grader.c` 또는 `grader.cpp`이다. 작성한 프로그램을 컴파일하려면, 다음과 같이 명령을 실행해야 합니다.
 
 * C의 경우: <samp>gcc -O2 -lm grader.c mountain.c -o grader</samp>
