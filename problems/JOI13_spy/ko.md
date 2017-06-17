@@ -6,7 +6,7 @@ JOI 사와 IOI 사에는 각각 <span class="tex-span"><i>N</i></span>명의 사
 
 <center>
 <img src="https://s3.ap-northeast-2.amazonaws.com/oj.uz/old/JOI13_spy/pic1.png"/>
-<p><small>[그림 1] JOI 사와 IOI 사의 조직의 예. 원은 사원을 나타냅니다. 사원에서 나오는 화살표는, 그 사원의 직계 부하를 가리킵니다.</small></p>
+<p>[그림 1] JOI 사와 IOI 사의 조직의 예. 원은 사원을 나타냅니다. 사원에서 나오는 화살표는, 그 사원의 직계 부하를 가리킵니다.</p>
 </center>
 
 IOI 사는 언제나 JOI 사의 정보를 몰래 빼내어, "믿을 수 없을 만큼 이상한 발명(incredibly odd inventions)"을 하고 있습니다. 지금 JOI 사에서는, <span class="tex-span"><i>r</i><sub class="lower-index">1</sub>,&thinsp;<i>r</i><sub class="lower-index">2</sub>,&thinsp;...,&thinsp;<i>r</i><sub class="lower-index"><i>M</i></sub></span>으로 명명된 <span class="tex-span"><i>M</i></span>개의 연구 팀을 결성했습니다. IOI 사는 이에 따라, <span class="tex-span"><i>s</i><sub class="lower-index">1</sub>,&thinsp;<i>s</i><sub class="lower-index">2</sub>,&thinsp;...,&thinsp;<i>s</i><sub class="lower-index"><i>M</i></sub></span>으로 명명된 <span class="tex-span"><i>M</i></span>개의 스파이 팀을 결성했습니다. IOI 사의 스파이 팀 <span class="tex-span"><i>s</i><sub class="lower-index"><i>b</i></sub></span>는 JOI 사의 연구 팀 <span class="tex-span"><i>r</i><sub class="lower-index"><i>b</i></sub></span>의 정보를 빼내야 합니다.
@@ -15,7 +15,7 @@ IOI 사는 언제나 JOI 사의 정보를 몰래 빼내어, "믿을 수 없을 �
 
 <center>
 <img src="https://s3.ap-northeast-2.amazonaws.com/oj.uz/old/JOI13_spy/pic2.png"/>
-<p><small>[그림 2] 그림 1의 JOI 사와 IOI 사에서 결성된 팀의 예</small></p>
+<p>[그림 2] 그림 1의 JOI 사와 IOI 사에서 결성된 팀의 예</p>
 </center>
 
 
