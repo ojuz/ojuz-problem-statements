@@ -33,7 +33,7 @@ Anna와 Bruno는 학교에서 한자 수행평가(..)을 쳐야 합니다. Anna�
 
 첫 번째 파일은 `Anna.c` 또는 `Anna.cpp`입니다. 이 파일은 Anna의 전략을 구현한 파일이며 다음 함수를 구현해야 합니다.
 
-```
+```c++
 void Anna(int N, int M, int A[], int B[], long long C[], int Q, int S[], int T[], int K, int U[]);
 ```
 
@@ -52,7 +52,7 @@ void Anna(int N, int M, int A[], int B[], long long C[], int Q, int S[], int T[]
 
 또한 프로그램에서 다음 함수를 호출하여 Bruno에게 0 또는 1을 보낼 수 있습니다.
 
-```
+```c++
 void Tap (int x);
 ```
 
@@ -67,7 +67,7 @@ void Tap (int x);
 
 두 번째 파일은 `Bruno.c` 또는 `Bruno.cpp`입니다. 이 파일은 Bruno의 전략을 구현한 파일이며 다음 함수를 구현해야 합니다.
 
-```
+```c++
 void Bruno(int N, int M, int A[], int B[], long long C[], int Q, int S[], int T[], int K, int U[], int L, int X[]);
 ```
 
@@ -80,7 +80,7 @@ void Bruno(int N, int M, int A[], int B[], long long C[], int Q, int S[], int T[
 
 프로그램에서 다음 함수를 호출할 수 있습니다.
 
-```
+```c++
 void Answer (int w);
 ```
 
