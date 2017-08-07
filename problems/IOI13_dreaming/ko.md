@@ -33,7 +33,7 @@
 
 #### 구현해야 하는 함수 : **`travelTime()`**
 
-```
+```c++
 int travelTime(int N, int M, int L, int A[], int B[], int T[]);
 ```
 
