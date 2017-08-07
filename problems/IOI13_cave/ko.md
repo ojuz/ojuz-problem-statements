@@ -20,7 +20,7 @@
 
 #### 그레이더 함수 : `tryCombination()`
 
-```
+```c++
 int tryCombination (int S[]);
 ```
 
@@ -36,7 +36,7 @@ int tryCombination (int S[]);
 
 #### 그레이더 함수 : `answer()`
 
-```
+```c++
 void answer (int S[], int D[]);
 ```
 
@@ -52,7 +52,7 @@ void answer (int S[], int D[]);
 
 #### 구현해야 하는 함수 : `exploreCave()`
 
-```
+```c++
 void exploreCave (int N);
 ```
 
