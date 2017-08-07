@@ -139,7 +139,7 @@
 
 #### 구현해야 할 함수 : `putaway()`
 
-```
+```c++
 int putaway (int A, int B, int T, int X[], int Y[], int W[], int S[]);
 ```
 
