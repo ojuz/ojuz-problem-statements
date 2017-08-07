@@ -54,7 +54,7 @@
 
 #### 구현해야 하는 함수 : `init()`
 
-```
+```c++
 void init (int R, int C);
 ```
 
@@ -71,7 +71,7 @@ void init (int R, int C);
 
 #### 구현해야 하는 함수 : `update()`
 
-```
+```c++
 void update(int P, int Q, long long K);
 ```
 
@@ -87,7 +87,7 @@ void update(int P, int Q, long long K);
 
 #### 구현해야 하는 함수 : `calculate()`
 
-```
+```c++
 long long calculate (int P, int Q, int U, int V);
 ```
 
