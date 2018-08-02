@@ -1,1 +1,0 @@
-{{viewpdf:statement_en}}
