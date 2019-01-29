@@ -6,7 +6,7 @@ The lightning conductor of height $p$ located on the roof of the building $i$ (o
 
 $$h_j \le h_i + p - \sqrt{|i - j|},$$
 
-where $|i-j$ denotes the absolute value of the difference between $i$ and $j$.
+where $|i-j|$ denotes the absolute value of the difference between $i$ and $j$.
 
 Byteasar, the mayor of Byteburg, asks your help. Write a program that, for every building $i$, determines the minimum height of a lightning conductor that would protect all the buildings if it were put on top of the building $i$.
 
