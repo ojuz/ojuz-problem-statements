@@ -27,24 +27,12 @@ VRI (Volton Robotics Institute)의 한 공학자가 $n$개의 로봇을 만들�
 
 ### 서브태스크
 
-<hr>
-
-편집자 주: [APIO 2013의 규칙](http://apio.comp.nus.edu.sg/APIORules.pdf)을 살펴 보면, 
-
-<pre>
-... Hence, during a release-test, <u>if the submission fails at a particular subtask, no further testing will be conducted for subsequent subtasks.</u> ...
-</pre>
-
-즉, 임의의 서브태스크에서 하나의 데이터라도 정확한 답을 내지 못한다면, 이후의 서브태스크는 채점도 하지 않는다는 것입니다. 이 문제에는 이 규칙이 적용되었습니다.
-
-<hr>
-
 여러분의 프로그램은 다음과 같은 네 가지 조건의 테스트 데이터 세트로 테스트 된다: 
 
 1. (10점) $n = 2$, $w \le 10$, $h \le 10$, 회전판이 없음.
 2. (20점) $n = 2$, $w \le 10$, $h \le 10$
-3. (30점) $n = 9$, $w \le 300$, $h \le 300$
-4. (40점) $n = 9$, $w \le 500$, $h \le 500$
+3. (30점) $n \le 9$, $w \le 300$, $h \le 300$
+4. (40점) $n \le 9$, $w \le 500$, $h \le 500$
 
 ### 입력과 출력의 예
 
