@@ -1,1 +1,0 @@
-[http://ioi2010.org/Tasks/Day2/Saveit.shtml](http://ioi2010.org/Tasks/Day2/Saveit.shtml)
