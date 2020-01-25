@@ -2,14 +2,14 @@
 
 $N \times M$ 짜리 지도가 주어집니다. 다음은 $N = 6, M = 10$ 인 한 지도의 예입니다.
 
-<font face=Monospace>
-\##X#######<br>
-\###X######<br>
-\####X##X##<br>
-\##########<br>
-\##XXXX####<br>
-\##########<br>
-</font>
+<pre>
+\##X#######
+\###X######
+\####X##X##
+\##########
+\##XXXX####
+\##########
+</pre>
 
 <!-- Monospace 짱짱!! //-->
 
@@ -25,31 +25,31 @@ $N \times M$ 짜리 지도가 주어집니다. 다음은 $N = 6, M = 10$ 인 한
 
 예를 들어, 위 지도에 당신이 아래처럼 길을 만들었다고 해 봅시다.
 
-<font face=Monospace>
+<pre>
 \#.X#######<br>
 \#.#X#\...##<br>
 \#\...X#.X.#<br>
 \#.#\...\...#<br>
 \#.XXXX##.#<br>
 \##########<br>
-</font>
+</pre>
 
 이 때, 입구 E에서 C까지 가는 최단거리가 가장 길며, 이 길이가 12이므로 $P$는 12가 됩니다.
 
-<font face=Monospace>
+<pre>
 \#EX#######<br>
 \#+#X#C+.##<br>
 \#+++X#+X.#<br>
 \#.#++++..#<br>
 \#.XXXX##.#<br>
 \##########<br>
-</font>
+</pre>
 
 <!-- 박수찬이 관리를 잘 못 합니다. 혼내주세요 ㅠㅠ //-->
 
 #### 채점 방식
 
-지도는 <a href="http://ioi2010.org/Tasks/Day2/maze.zip">여기</a>에서 받을 수 있습니다.
+지도는 첨부파일에서 받을 수 있습니다.
 
 각 서브태스크마다 지도는 field1.txt, field2.txt, field3.txt, ..., field9.txt, fieldA.txt 이고,
 미로는 maze1.txt, maze2.txt, maze3.txt, ..., maze9.txt, mazeA.txt 에 만들어 zip파일로 제출하면 됩니다.
