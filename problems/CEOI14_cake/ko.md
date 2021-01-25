@@ -1,1 +1,1 @@
-{{viewpdf:statement_en}}
+{{viewpdf:statement_ko}}
