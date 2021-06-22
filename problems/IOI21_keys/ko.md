@@ -1,1 +1,1 @@
-{{viewpdf:statement_ko}}
+{{viewpdf:statement_ko_KR}}
